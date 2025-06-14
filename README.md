@@ -10,7 +10,7 @@ This is a dark-humor-themed **Russian Roulette** game written in **pure C**. It'
 
 - 🧍‍♂️ **Solo mode** – Just you and a deadly spinner
 - 👥 **Multiplayer mode** – Play with friends (if you still have any after playing)
-- 🎯 **Training mode** – Practice dying, professionally
+- 🎯 **Training mode** – For those who want to prepare for death by failing every survival instinct test imaginable.
 - 🏆 **Leaderboard** – So your shame is recorded permanently
 - 🎭 **Humor** – Because if you're gonna die, might as well laugh
 
