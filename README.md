@@ -84,7 +84,7 @@ This project uses some built-in Windows-only functions, so it won’t work on Li
 
 ## 📝 License
 
-No official license yet. You can play with the code, modify it, and vibe with it. Just don’t sell it as your own without giving credit (that’s just lame).
+No official license yet. You can play with the code, modify it, and vibe with it. Just don’t sell it as your own without giving credit (that’s just mean .. very mean).
 
 ---
 
