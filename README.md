@@ -66,12 +66,18 @@ This project uses some built-in Windows-only functions, so it won’t work on Li
 - Using file I/O for a basic leaderboard
 - Making console games with a touch of humor
 
-## 🚧 Future Ideas (maybe someday)
 
-- Add Linux compatibility
-- Add gun sounds (not really, but sounds fun)
-- Make the bullets smarter (AI bullets? 🤖)
-- Maybe a GUI (just kidding... or am I?)
+
+## 🚧 Features I Promised During a Sleep-Deprived Coding Session
+
+- 🐧 **Add full Linux support** — Because death shouldn't be exclusive to Windows. Terminal users deserve their doom in style too. Bonus points if it runs on Arch with a single compile command.
+- 🔊 **Add gun sounds** — Maybe make the terminal whisper "BANG!" or play a .wav file if we get fancy (or unhinged).
+- 🧠 **Smarter bullets (AI mode)** — What if the gun had a mind of its own? Could it spare you? Could it hunt you? Could it ask for healthcare benefits?
+- 🖼️ **ASCII GUI** — Explosions made of symbols, a revolver drawn with `#`, maybe even dramatic slow-motion death messages.
+- 🪦 **Gravestone Generator** — Automatically generate an epitaph when you die: “Here lies a brave fool who trusted a C program.”
+- 🌐 **Online mode??** — Russian Roulette over the internet. What could go wrong? (Everything.)
+
+
 
 ## 📝 License
 
