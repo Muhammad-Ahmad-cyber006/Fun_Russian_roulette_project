@@ -67,15 +67,18 @@ This project uses some built-in Windows-only functions, so it won’t work on Li
 - Making console games with a touch of humor
 
 
+## 🪦 Features I Whisper to Myself at 3AM While Debugging Alone
 
-## 🚧 Features I Promised During a Sleep-Deprived Coding Session
 
-- 🐧 **Add full Linux support** — Because death shouldn't be exclusive to Windows. Terminal users deserve their doom in style too. Bonus points if it runs on Arch with a single compile command.
-- 🔊 **Add gun sounds** — Maybe make the terminal whisper "BANG!" or play a .wav file if we get fancy (or unhinged).
-- 🧠 **Smarter bullets (AI mode)** — What if the gun had a mind of its own? Could it spare you? Could it hunt you? Could it ask for healthcare benefits?
-- 🖼️ **ASCII GUI** — Explosions made of symbols, a revolver drawn with `#`, maybe even dramatic slow-motion death messages.
-- 🪦 **Gravestone Generator** — Automatically generate an epitaph when you die: “Here lies a brave fool who trusted a C program.”
-- 🌐 **Online mode??** — Russian Roulette over the internet. What could go wrong? (Everything.)
+- 🐧 **Linux Support** – Because if it compiles on Arch, it can probably launch nukes too.
+- 🔫 **Gun Sounds** – Terminal goes *pew pew* (because your life needs sound effects).
+- 🧠 **AI-Controlled Bullets** – They choose who dies based on your last 5 Google searches.
+- 🎨 **ASCII GUI** – Full cinematic experience in pure text. Explosions? Check. Bullet cam? Maybe.
+- 🪦 **Auto-Generated Gravestones** – “RIP: Played a C game and trusted the RNG. F.”
+- 🌍 **Online Deathmatch Mode** – Russian Roulette... but with strangers on the internet. Truly social.
+- 🧹 **Cleanup Function** – Deletes your high score, then your self-respect.
+
+
 
 
 
