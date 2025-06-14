@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Game",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "main.c",
+        "design.c",
+        "gamemodes.c",
+        "input.c",
+        "training.c",
+        "-o",
+        "mygame.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
