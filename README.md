@@ -73,7 +73,7 @@ This project uses some built-in Windows-only functions, so it won’t work on Li
 - 🐧 **Linux Support** – Because if it compiles on Arch, it can probably launch nukes too.
 - 🔫 **Gun Sounds** – Terminal goes *pew pew* (because your life needs sound effects).
 - 🧠 **AI-Controlled Bullets** – They choose who dies based on your last 5 Google searches.
-- 🎨 **ASCII GUI** – Full cinematic experience in pure text. Explosions? Check. Bullet cam? Maybe.
+- 💻 Maybe a GUI (just kidding... unless sleep deprivation counts as a framework).
 - 🪦 **Auto-Generated Gravestones** – “RIP: Played a C game and trusted the RNG. F.”
 - 🌍 **Online Deathmatch Mode** – Russian Roulette... but with strangers on the internet. Truly social.
 - 🧹 **Cleanup Function** – Deletes your high score, then your self-respect.
