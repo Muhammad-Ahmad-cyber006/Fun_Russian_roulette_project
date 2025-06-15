@@ -18,7 +18,7 @@ void loadLeaderboard() {
     
     leaderboardCount = 0;
     while (leaderboardCount < MAX_LEADERBOARD && 
-           !feof(file) &&   fscanf(file, "%50s %d %d %9s", leaderboard[leaderboardCount].name, &leaderboard[leaderboardCount].money,
+ fscanf(file, "%50s %d %d %9s", leaderboard[leaderboardCount].name, &leaderboard[leaderboardCount].money,
 &leaderboard[leaderboardCount].rounds,
 leaderboard[leaderboardCount].status) == 4)
  {
