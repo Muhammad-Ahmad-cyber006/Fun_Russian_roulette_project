@@ -3,5 +3,8 @@ ChaiLover_404 100000 1 DEAD
 ArchUser_Burnout 100000 1 ALIVE
 Jotaro_Gambler 100000 1 ALIVE
 Paratha_Unemployment 4000 4 ALIVE
+XXja 2000 2 ALIVE
+CodeVictim 400 4 DEAD
 Powerless_One 200 2 DEAD
 Statics_Unemployment 0 0 DEAD
+Sad_Bruce 0 0 DEAD
