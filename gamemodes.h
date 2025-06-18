@@ -13,7 +13,7 @@ struct LeaderboardEntry {
 
 };
 
- extern struct LeaderboardEntry leaderboard[MAX_LEADERBOARD];
+extern struct LeaderboardEntry leaderboard[MAX_LEADERBOARD];
 extern int leaderboardCount;
 extern int playerHasPlayed;
 
