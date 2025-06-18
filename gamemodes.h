@@ -10,10 +10,10 @@ struct LeaderboardEntry {
     int money;
     int rounds;
     char status[10];
-    int position;
+
 };
 
-extern struct LeaderboardEntry leaderboard[MAX_LEADERBOARD];
+ extern struct LeaderboardEntry leaderboard[MAX_LEADERBOARD];
 extern int leaderboardCount;
 extern int playerHasPlayed;
 

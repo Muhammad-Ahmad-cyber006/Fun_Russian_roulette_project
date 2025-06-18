@@ -6,7 +6,6 @@
 #include "gamemodes.h"
 #include "training.h"
 
-
 struct LeaderboardEntry leaderboard[MAX_LEADERBOARD];
 int leaderboardCount = 0;
 int playerHasPlayed = 0;

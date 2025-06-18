@@ -18,7 +18,7 @@ void loadLeaderboard() {
     
     leaderboardCount = 0;
     while (leaderboardCount < MAX_LEADERBOARD && 
-           !feof(file) &&   fscanf(file, "%50s %d %d %9s", leaderboard[leaderboardCount].name, &leaderboard[leaderboardCount].money,
+  fscanf(file, "%50s %d %d %9s", leaderboard[leaderboardCount].name, &leaderboard[leaderboardCount].money,
 &leaderboard[leaderboardCount].rounds,
 leaderboard[leaderboardCount].status) == 4)
  {
@@ -39,11 +39,6 @@ void sortLeaderboard() {
                 leaderboard[j+1] = temp;
             }
         }
-    }
-    
-
-    for (int i = 0; i < leaderboardCount; i++) {
-        leaderboard[i].position = i + 1;
     }
 }
 
@@ -124,7 +119,7 @@ void showHallOfShame() {
         getchar();
     } else {
 showLoadingScreen("\t\t\tUpdating the Hall of Fame with your latest contribution to human nonsense...");
-        printf("\t\t\t\tPress ENTER to see how your failure ranks among the elite disasters.");
+        printf("\t\t\t\t\tPress ENTER to see how your failure ranks among the elite disasters.");
         getchar();
     }
     
@@ -158,9 +153,9 @@ showLoadingScreen("\t\t\tUpdating the Hall of Fame with your latest contribution
     } else {
         printf(GREEN "\t\tBehold, the current roster of legends, lunatics, and lottery winners:\n\n" RESET);
         
-        printf(CYAN "\t\t+------+----------------------+----------+--------+------------+\n");
-        printf("\t\t| Rank | Name                 | Money    | Rounds | Status     |\n");
-        printf("\t\t+------+----------------------+----------+--------+------------+\n" RESET);
+        printf(CYAN "\t\t+------+-------------------------+----------+--------+------------+\n");
+        printf("\t\t| Rank | Name                    | Money    | Rounds | Status     |\n");
+        printf("\t\t+------+-------------------------+----------+--------+------------+\n" RESET);
         
         for (int i = 0; i < leaderboardCount; i++) {
             char* color = WHITE;
@@ -170,12 +165,12 @@ showLoadingScreen("\t\t\tUpdating the Hall of Fame with your latest contribution
             else if (i < 8) color = YELLOW;      
             else color = BLUE;                 
             
-            printf("%s\t\t| #%-3d | %-20s | $%-7d | %-6d | %-10s |\n" RESET,
+            printf("%s\t\t| #%-3d | %-23s | $%-7d | %-6d | %-10s |\n" RESET,
                    color, i + 1, leaderboard[i].name, leaderboard[i].money, 
                    leaderboard[i].rounds, leaderboard[i].status);
         }
         
-        printf(CYAN "\t\t+------+----------------------+----------+--------+------------+\n\n" RESET);
+        printf(CYAN "\t\t+------+-------------------------+----------+--------+------------+\n\n" RESET);
         
        
     if (leaderboardCount > 0) {

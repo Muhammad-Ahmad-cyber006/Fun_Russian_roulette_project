@@ -431,7 +431,7 @@ void meditationMode() {
             printf("Notice your thoughts without judgment...\n");
             printf("This will take exactly 2 minutes (120 seconds)...\n\n");
             
-            const char* mindfulPrompts[] = {
+            const char* mindfullMsg[] = {
                 "Feel your feet on the ground...",
                 "Notice the air entering your lungs...",
                 "Acknowledge any fear without resistance...",
@@ -442,7 +442,7 @@ void meditationMode() {
             
          
             for(int i = 0; i < 6; i++) {
-                printf(CYAN "%s\n" RESET, mindfulPrompts[i]);
+                printf(CYAN "%s\n" RESET, mindfullMsg[i]);
                 
   
                 Beep(852, 300);  
@@ -673,6 +673,8 @@ void meditationMode() {
     printf("\nPress ENTER to return to main menu...");
     while (getchar() != '\n');
 }
+
+
 void showTrainingMenu() {
     while(1) {
         clearScreen();
