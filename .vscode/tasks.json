@@ -6,7 +6,7 @@
       "type": "shell",
       "command": "gcc",
       "args": [
-        "Ghost_Protocol.c",
+        "main.c",
         "design.c",
         "gamemodes.c",
         "input.c",
